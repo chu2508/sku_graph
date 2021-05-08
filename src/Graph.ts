@@ -45,8 +45,8 @@ export class Graph {
   }
 
   public setEdges(
-    vertex: number,
-    vertices: number[],
+    vertex: Vertex,
+    vertices: Vertices,
     weight: UnlinkWeight | SimilarWeight | number
   ) {
     const vertexIdx = this.vertices.indexOf(vertex);
