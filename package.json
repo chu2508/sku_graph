@@ -2,13 +2,14 @@
   "name": "sku_graph",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/src/index.js",
+  "types": "dist/src",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "dirac",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.8.0",
     "@types/jest": "^26.0.23",

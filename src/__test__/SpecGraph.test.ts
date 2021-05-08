@@ -46,7 +46,7 @@ describe('spec graph test', () => {
     ],
   ];
   beforeEach(() => {
-    graph = new SpecGraph(specList, combine);
+    graph = new SpecGraph(specList.map(({list}) => (list)), combine);
   });
 
   test('usecase test', () => {

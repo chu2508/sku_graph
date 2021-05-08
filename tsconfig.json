@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "UMD",
+    "target": "es2015",
+    "module": "es2015",
     "removeComments": false,
     "preserveConstEnums": true,
     "moduleResolution": "node",
@@ -9,10 +9,11 @@
     "emitDecoratorMetadata": true,
     "noImplicitAny": false,
     "allowSyntheticDefaultImports": true,
-    "outDir": "lib",
+    "outDir": "dist",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "strictNullChecks": true,
+    "declaration": true,
     "sourceMap": true,
     "baseUrl": ".",
     "rootDir": ".",
